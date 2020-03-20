@@ -18,6 +18,7 @@ class BULLCOWGAME_API UBullCowCartridge : public UCartridge
 	void PrintInterduction();
 	void ProcessGame(FString PlayerGuess);
 	void EndGame();
+	bool IsIsogram(FString Word);
 	
 
 	// Your declarations go below!
